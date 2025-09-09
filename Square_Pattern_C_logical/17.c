@@ -13,12 +13,12 @@ int main(){
     printf("Enter a number: ");
     scanf("%d",&n);
     
-    int a = 1;
+    char temp = 'A';
     for(int i=1; i<=n; i++){
         for (int j=1; j<=n; j++)
         {
-            printf("%c ", a+64);
-            a++;
+            printf("%c ", temp);
+            temp+=1;
             
         }
         printf("\n");
@@ -26,3 +26,28 @@ int main(){
     return 0;
 
 }
+
+
+// Another approach
+
+
+// #include <stdio.h>
+// int main(){
+
+//     int n;
+//     printf("Enter a number: ");
+//     scanf("%d",&n);
+    
+//     int a = 1;
+//     for(int i=1; i<=n; i++){
+//         for (int j=1; j<=n; j++)
+//         {
+//             printf("%c ", a+64);
+//             a++;
+            
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+
+// }
